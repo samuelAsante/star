@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get fit Now</title>
+    <link rel="stylesheet" href="JoinUs.css">
+</head>
+<body>
+    <header>
+        <h1>Athletics Fitness</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="ClubActivities.html">Club Activities</a>
+            <a href="#JoinUs.html">register</a>
+        </nav>
+    </header>
+
+<div class="container">
+    <h2>Join Us Today</h2>
+    <form id="registrationForm">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required pattern="[0-9]{10}" title="Please enter a 10-digit phone number">
+
+        <input type="submit" value="Register">
+    </form>
+
+    <div class="message" id="successMessage" style="display:none;">
+        You are welcome to the Elites!
+    </div>
+</div>
+
+<script src="JoinUs.js"></script>
+
+<footer>
+    <p>&copy; Get Fit Now</p>
+</footer>
+
+</body>
+</html>
